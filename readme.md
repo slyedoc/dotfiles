@@ -4,7 +4,7 @@ Personal Setup Notes
 
 ## Install Prerequisites
 
-- [git] (./docs/git.md)
+- [git](./docs/git.md)
 - vscode
   - Enable Settings Sync
 - CopyQ
