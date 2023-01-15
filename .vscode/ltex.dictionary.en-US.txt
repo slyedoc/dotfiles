@@ -1,0 +1,6 @@
+Dotfiles
+vscode
+CopyQ
+dotfiles
+DejaVu
+json
