@@ -4,24 +4,21 @@ Personal Setup Notes
 
 ## Install Prerequisites
 
-- git
+- [git] (./docs/git.md)
 - vscode
   - Enable Settings Sync
 - CopyQ
   - Ditto on Windows
 - Chrome
-- [Fonts](./fonts.md)
-  
+- [Fonts](./docs/fonts.md)
+
 ## Folder Setup
 
 Create 3 folders in code directory
 
-```~/code/p```
-  Used for personal projects
-```~/code/w```
-  Used for work projects
-```~/code/f```
-  Used for forked projects
+- ```~/code/p``` Used for personal projects
+- ```~/code/w``` Used for work projects
+- ```~/code/f``` Used for forked projects
 
 ## Clone dotfiles repo
 
@@ -39,5 +36,5 @@ git clone https://github.com/slyedoc/dotfiles.git
 # make symbolic link for .zshrc
 cd ~/
 mv .zshrc .zshrc.old
-ln -s $HOME/code/p/dotfiles/.zshrc $HOME/.zshrc
+ln -s ~/code/p/dotfiles/.zshrc ~/.zshrc
 ```

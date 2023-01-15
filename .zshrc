@@ -46,5 +46,13 @@ if [[ "$OSTYPE" == "linux-gnu"* ]]; then
   [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 fi
 
+# Utilities
+function i() {
+  cd ~/code/$1
+}
+
+
+
+
 # load addintional scripts local to this machine...
 source $HOME/.zshrc_local
